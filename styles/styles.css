@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+#map {
+        height: 90%;
+        width: 100vw;
+    }
+
+h1, p{
+    padding-left: 5px;
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
