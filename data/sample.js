@@ -139,7 +139,7 @@ var audioFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Devonport Kings Road Station",
-                "popupContent" : "Devonport Kings road station was built in 1876, when Scott was just 8 years old, it was the terminus of the London and South Western Railway. The station was a large building facing Paradise Road . A tall tower was part of the main building which stood on the departure platform. The departure and arrival platforms and two sidings between were covered by two substantial train sheds with wide glazed arches at the end. The only evidence of its existence is the original railings along Paradise Road, and Kings road itself, which was built to connect Stonehouse to the station.",
+                "popupContent" : "Devonport Kings road station was built in 1876, it was the terminus of the London and South Western Railway. The station was a large building facing Paradise Road . A tall tower was part of the main building which stood on the departure platform. The departure and arrival platforms and two sidings between were covered by two substantial train sheds with wide glazed arches at the end. The only evidence of its existence is the original railings along Paradise Road, and Kings road itself, which was built to connect Stonehouse to the station.",
                 "image":"static/images/devonport_kings_road_station.jpeg",
                 "altText":"Photo showing the throat of Devonport Kings Road Stattion, there are two covered entrances and a tower to the left which was part of the station buildings. "
             },
