@@ -13,7 +13,9 @@ var audioFile = {
             "properties": {
                 "title": "Smeatons Tower",
                 "popupContent": "Smeaton's Tower is a memorial to celebrated civil engineer John Smeaton, designer of the third and most notable Eddystone Lighthouse. A major step forward in lighthouse design, Smeaton's structure was in use from 1759 to 1877, until erosion of the ledge it was built upon forced new construction",
-                "audio": "static/audio/horse.mp3"
+                "audio": "static/audio/horse.mp3",
+                "image": "static/images/smeatons_tower.jpg",
+                "altText": "Smeatons tower lighthouse, a lighthous with red and white stripes"
             },
             "id": 51
         },
@@ -73,7 +75,9 @@ var audioFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Outlands",
-                "popupContent" : "Birthplace of Robert Falcom Scott, the famous antarctic explorer. Scott was born on the 6th June 1868."
+                "popupContent" : "Birthplace of Robert Falcom Scott, the famous antarctic explorer. Scott was born on the 6th June 1868.",
+                "image":"static/images/outlands.jpeg",
+                "altText":"Photo of Outlands house, a large rather square house covered in Ivy"
             },
             "id": 55
         },
@@ -88,7 +92,9 @@ var audioFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Devonport Royal Dockyard Orphanage",
-                "popupContent" : "Originally founded in 1849 in Morice Square, Devonport The Devonport Royal Dockyard Orphanage was originally a female only orphanage. In 1900 they started to accept boys and needed larger premises. This building was opened on Saturday July 4th 1903 by Mrs Henderson, the wife of Rear-Admiral W H Henderson, who was the Superintendent of the Royal Dockyard. 25 boys and 25 girls were admitted to the orphanage."
+                "popupContent" : "Originally founded in 1849 in Morice Square, Devonport The Devonport Royal Dockyard Orphanage was originally a female only orphanage. In 1900 they started to accept boys and needed larger premises. This building was opened on Saturday July 4th 1903 by Mrs Henderson, the wife of Rear-Admiral W H Henderson, who was the Superintendent of the Royal Dockyard. 25 boys and 25 girls were admitted to the orphanage.",
+                "image":"static/images/royal_dockyard_orphanage.jpeg",
+                "altText":"Red brick 3 storey house, previously the Devonport Royal Dockyard Orphanage."
             },
             "id": 56
         },
@@ -133,7 +139,9 @@ var audioFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Devonport Kings Road Station",
-                "popupContent" : "Devonport Kings road station was built in 1876, when Scott was just 8 years old, it was the terminus of the London and South Western Railway. The station was a large building facing Paradise Road . A tall tower was part of the main building which stood on the departure platform. The departure and arrival platforms and two sidings between were covered by two substantial train sheds with wide glazed arches at the end. The only evidence of its existence is the original railings along Paradise Road, and Kings road itself, which was built to connect Stonehouse to the station."
+                "popupContent" : "Devonport Kings road station was built in 1876, when Scott was just 8 years old, it was the terminus of the London and South Western Railway. The station was a large building facing Paradise Road . A tall tower was part of the main building which stood on the departure platform. The departure and arrival platforms and two sidings between were covered by two substantial train sheds with wide glazed arches at the end. The only evidence of its existence is the original railings along Paradise Road, and Kings road itself, which was built to connect Stonehouse to the station.",
+                "image":"static/images/devonport_kings_road_station.jpeg",
+                "altText":"Photo showing the throat of Devonport Kings Road Stattion, there are two covered entrances and a tower to the left which was part of the station buildings. "
             },
             "id": 59
         },
@@ -148,7 +156,9 @@ var audioFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Devonport Municipal Science, Arts and Technical School",
-                "popupContent" : "Devonport Municipal Science, Arts and Technical School was built in 1899, its architect was Mr John Snell. The school was built after the original premises in George Street were found to be inadequate in 1894. The school cost £14,000 to build and took 2 years to complete."
+                "popupContent" : "Devonport Municipal Science, Arts and Technical School was built in 1899, its architect was Mr John Snell. The school was built after the original premises in George Street were found to be inadequate in 1894. The school cost £14,000 to build and took 2 years to complete.",
+                "image":"static/images/devonport_municipal_science_arts_technical_school.jpeg",
+                "altText":"Modern photo of the Municipal Science, Arts and Technical College which is now flats. The original school motif is still visible"
             },
             "id": 60
         },
@@ -163,7 +173,9 @@ var audioFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Napier Fountain",
-                "popupContent" : "Admiral Sir Charles Napier was a disruptive and liberal commander. He was the leading for voice for naval reform after the Napoleonic Wars. He sought to persuade successive civil administrations of the need for the development of steam ships; the use of iron in ship construction; the proper training of officers; and decent living conditions for ordinary seamen. He advocated that the use of the press gang and of flogging should be abolished, and that seamen should receive proper wages and pensions. On his death in 1860 a subscription was raised from the crews of the naval ships in the Hamoaze, each man contributing a days pay. The total raised was £156. It was decided to build the fountain in the first public park in Plymouth. In a move that Napier would no doubt have admired, the authorities were not asked about this but just told it was going to be done."
+                "popupContent" : "Admiral Sir Charles Napier was a disruptive and liberal commander. He was the leading for voice for naval reform after the Napoleonic Wars. He sought to persuade successive civil administrations of the need for the development of steam ships; the use of iron in ship construction; the proper training of officers; and decent living conditions for ordinary seamen. He advocated that the use of the press gang and of flogging should be abolished, and that seamen should receive proper wages and pensions. On his death in 1860 a subscription was raised from the crews of the naval ships in the Hamoaze, each man contributing a days pay. The total raised was £156. It was decided to build the fountain in the first public park in Plymouth. In a move that Napier would no doubt have admired, the authorities were not asked about this but just told it was going to be done.",
+                "image":"static/images/napier_fountain.jpeg",
+                "altText":"Napier fountain, a round fountain with cherubs on the 4 compass points. In the centre is a raised shallow dish with another cherub in it."
             },
             "id": 61
         },
@@ -208,7 +220,9 @@ var audioFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Clarendon House",
-                "popupContent" : "Clarendon House’s foundation stone was laid on April 23rd 1845. It was originally the Royal British Female Orphan Asylum, built to accomodate 150 orphans. During the years 1940 to 1947 this building was the training centre for the Polish Navy and Headquarters of the Polish Navy Southern Command following the outbreak of World War II."
+                "popupContent" : "Clarendon House’s foundation stone was laid on April 23rd 1845. It was originally the Royal British Female Orphan Asylum, built to accomodate 150 orphans. During the years 1940 to 1947 this building was the training centre for the Polish Navy and Headquarters of the Polish Navy Southern Command following the outbreak of World War II.",
+                "image":"static/images/clarendon_house.jpeg",
+                "altText":"Modern photo of Clarendon house a 4 storey building that is now flats."
             },
             "id": 64
         },
@@ -223,7 +237,9 @@ var audioFile = {
             "type": 'Feature',
             "properties": {
                 "title": "HMS Doris Memorial",
-                "popupContent" : "A captured machine gun from the Boer war. Laid to commemorate the crew of HMS Doris who dragged a ships gun hundred of miles inland. The 4.7 inch gun was enormous and had to be carried on an improvised carriage to the Battle of Magersfontein."
+                "popupContent" : "A captured machine gun from the Boer war. Laid to commemorate the crew of HMS Doris who dragged a ships gun hundred of miles inland. The 4.7 inch gun was enormous and had to be carried on an improvised carriage to the Battle of Magersfontein.",
+                "image":"static/images/ships_gun_boer_war.jpeg",
+                "altText":"One of the ships guns used at the battle of Magersfontain, the HMS Doris gun would have been a similar size. Photo courtesy of the Imperial War Museum"
             },
             "id": 65
         },
@@ -238,7 +254,9 @@ var audioFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Raglan Barracks Gatehouse",
-                "popupContent" : "This grade 2 listed gatehouse is the original entrance to the now demolished Raglan barracks. The barracks were built between 1853 and 1858 during the Crimean Wars. The gate was designed by Captain Francis Fowke who also designed the Royal Albert Hall and parts of the Victoria and Albert Museum."
+                "popupContent" : "This grade 2 listed gatehouse is the original entrance to the now demolished Raglan barracks. The barracks were built between 1853 and 1858 during the ;Crimean Wars. The gate was designed by Captain Francis Fowke who also designed the Royal Albert Hall and parts of the Victoria and Albert Museum.",
+                "image":"static/images/raglan_parade_ground.jpeg",
+                "altText":"Old black and white photo of Raglan parade ground with the gatehouse in the background"
             },
             "id": 66
         },
@@ -253,7 +271,9 @@ var audioFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Devonport Guildhall",
-                "popupContent" : "Designed by John Foulston. Devonport Guildhall is a legacy to the fact that the ‘City of Plymouth’ is a relatively recent creation. The three towns of Plymouth, Devonport and Stonehouse were merged in 1914 into the municipal area of Plymouth, and eventually became the City of Plymouth in 1928. In 1821 Sir Richard Owen gave a groundbreaking talk here about fossils to the British Association for the Advancement of Science. It was the first time the word 'Dinousauria' was used to describe the fossils as 'a distinct tribe or sub-order of Saurian Reptiles'"
+                "popupContent" : "Designed by John Foulston. Devonport Guildhall is a legacy to the fact that the ‘City of Plymouth’ is a relatively recent creation. The three towns of Plymouth, Devonport and Stonehouse were merged in 1914 into the municipal area of Plymouth, and eventually became the City of Plymouth in 1928. In 1821 Sir Richard Owen gave a groundbreaking talk here about fossils to the British Association for the Advancement of Science. It was the first time the word 'Dinousauria' was used to describe the fossils as 'a distinct tribe or sub-order of Saurian Reptiles'",
+                "image":"static/images/richard_owen.jpg",
+                "altText":"Photographic portrait of Sir Richard Owen" 
             },
             "id": 67
         },
@@ -268,7 +288,9 @@ var audioFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Devonport Column",
-                "popupContent" : "Designed by John Foulston as part of the development of the town of Devonport, Devonport Column was built in 1824. It is 124 feet tall and can be climbed via the spiral 137 stepped staircase to enjoy the view over Plymouth and Dartmoor. Tickets to climb the tower are available from the column bakehouse opposite"
+                "popupContent" : "Designed by John Foulston as part of the development of the town of Devonport, Devonport Column was built in 1824. It is 124 feet tall and can be climbed via the spiral 137 stepped staircase to enjoy the view over Plymouth and Dartmoor. Tickets to climb the tower are available from the column bakehouse opposite",
+                "image":"static/images/guildhall_column_egyptian_house.jpeg",
+                "altText":"Engraving of the Guildhall, Column, Egyptian House and Chapel (which no longer stands) made in 1825"
             },
             "id": 68
         },
@@ -313,7 +335,9 @@ var audioFile = {
             "type": 'Feature',
             "properties": {
                 "title": "King Billy Figurehead",
-                "popupContent" : "Originally the figurehead on the 120 gun ship H.M.S. King William. When the ship was redesigned for steam power in 1859 the figurehead was replaced with a smaller one and the original was placed here in front of the slip. In the 1990’s the original figurehead was found to have significant rot and a fibreglass replica was made and now stands in its place. The original figurehead has been restored and can be viewed at the 'Box' Museum."
+                "popupContent" : "Originally the figurehead on the 120 gun ship H.M.S. King William. When the ship was redesigned for steam power in 1859 the figurehead was replaced with a smaller one and the original was placed here in front of the slip. In the 1990’s the original figurehead was found to have significant rot and a fibreglass replica was made and now stands in its place. The original figurehead has been restored and can be viewed at the 'Box' Museum.",
+                "image":"static/images/king_billy_box.jpeg",
+                "altText":"Restored King Billy figurehead at the Box Museum"
             },
             "id": 71
         },
@@ -373,7 +397,9 @@ var audioFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Devonport High School for Boys",
-                "popupContent" : "This imposing building was originally the Stoke Military Hospital and was built in 1797 for the British Army by Napoleonic prisoners of war. The design was based on the Naval hospital to the south of the creek, now the Millfields private estate. The Naval hospital was state of the art for its time and will be the subject of future articles. The Stoke Military Hospital closed in 1945 after 148 years of use, initially the buildings then became two schools, Tamar High School and Devonport High School for Boys. Tamar High was closed and absorbed into DHSB in 1989."
+                "popupContent" : "This imposing building was originally the Stoke Military Hospital and was built in 1797 for the British Army by Napoleonic prisoners of war. The design was based on the Naval hospital to the south of the creek, now the Millfields private estate. The Naval hospital was state of the art for its time and will be the subject of future articles. The Stoke Military Hospital closed in 1945 after 148 years of use, initially the buildings then became two schools, Tamar High School and Devonport High School for Boys. Tamar High was closed and absorbed into DHSB in 1989.",
+                "image":"static/images/dhs.jpeg",
+                "altText":"The High school blocks as viewed from Stone House Creek"
             },
             "id": 75
         },
@@ -388,7 +414,9 @@ var audioFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Millbridge",
-                "popupContent" : "Before the building of Stonehouse Bridge, Mill Bridge was the route across Stonehouse Creek to Stonehouse and Plymouth. Nowadays its not even obvious it was a bridge at all but originally both Stonehouse Creek and Victoria Park to the North East were open bodies of water (Victoria Park was known as the rather foreboding Deadlake). In 1813 the artist Turner sketched the view North towards Stoke Damerel showing the mill and bridge in the foreground. The first bridge was built in 1525 and was more of a dam to use the tidal power of the Deadlake to drive the mill. At its height the mill had three wheels driving 5 pairs of millstones however operation ended in the 19th century."
+                "popupContent" : "Before the building of Stonehouse Bridge, Mill Bridge was the route across Stonehouse Creek to Stonehouse and Plymouth. Nowadays its not even obvious it was a bridge at all but originally both Stonehouse Creek and Victoria Park to the North East were open bodies of water (Victoria Park was known as the rather foreboding Deadlake). In 1813 the artist Turner sketched the view North towards Stoke Damerel showing the mill and bridge in the foreground. The first bridge was built in 1525 and was more of a dam to use the tidal power of the Deadlake to drive the mill. At its height the mill had three wheels driving 5 pairs of millstones however operation ended in the 19th century.",
+                "image":"static/images/turner_sketch_millbridge.jpeg",
+                "altText":"Turner's sketch of Millbridge and Stoke Dameral. Courtesy of the Tate."
             },
             "id": 76
         },
@@ -403,7 +431,9 @@ var audioFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Octagon Brewery",
-                "popupContent" : "The brewery was founded in 1861 and incorporated in 1899. It continued until 1954 when it was sold to H&G Simonds. The following year the company was liquidated .The brewery owned many taverns throughout the ‘Three Towns'. These pubs displayed the distinctive brewery logo of an OB within an octagon shape. The distinctive logo can still be seen today in the windows of the Dolphin Hotel on the Barbican, one of Plymouth’s most popular pubs."
+                "popupContent" : "The brewery was founded in 1861 and incorporated in 1899. It continued until 1954 when it was sold to H&G Simonds. The following year the company was liquidated .The brewery owned many taverns throughout the ‘Three Towns'. These pubs displayed the distinctive brewery logo of an OB within an octagon shape. The distinctive logo can still be seen today in the windows of the Dolphin Hotel on the Barbican, one of Plymouth’s most popular pubs.",
+                "image":"static/images/dolphin_hotel.jpeg",
+                "altText":"The Dolphin Hotel on the Barbican with the distinctive Octaganal brewery emblem embedded in the windows."
             },
             "id": 77
         },
@@ -418,7 +448,9 @@ var audioFile = {
             "type": 'Feature',
             "properties": {
                 "title": "The Phoenix",
-                "popupContent" : "The Phoenix has been a pub since at least the 1930's. Before that it was the site of the Phoenix Hall Roller Skating Rink. Roller skating took England by storm and by the late 19th century Plymouth had half a dozen rinks. In May 1880 the Phoenix Hall Rink was one of the last to open. Another rink, Pavilion New Skating Rink was located nearby in Martin Street. Various skating prizes could be won. These were usually silver cups or medals but, on special occasions, prizes could even include live chickens or a pig to take home!"
+                "popupContent" : "The Phoenix has been a pub since at least the 1930's. Before that it was the site of the Phoenix Hall Roller Skating Rink. Roller skating took England by storm and by the late 19th century Plymouth had half a dozen rinks. In May 1880 the Phoenix Hall Rink was one of the last to open. Another rink, Pavilion New Skating Rink was located nearby in Martin Street. Various skating prizes could be won. These were usually silver cups or medals but, on special occasions, prizes could even include live chickens or a pig to take home!",
+                "image":"static/images/phoenix_plaque.jpeg",
+                "altText":"The plaque on the Phoenix Pub explaining the history of rollerskating in the area."
             },
             "id": 78
         },
@@ -433,7 +465,9 @@ var audioFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Endeavour Blue Plaque",
-                "popupContent" : "Ernest Shackleton and his crew set sail on the Endeavour from Millbay Docks. After Roald Amundsen’s success reaching the South Pole in 1911 (and the subsequent death of one of Plymouth’s most famous sons, Robert Falcon Scott) Shackleton was aiming to complete the grandly titled ‘Imperial Trans-Antarctic expedition’, crossing Antarctica from one side to the other. The expedition came into jeopardy when the Endurance became trapped in the sea ice, and was ultimately crushed and sank in the Weddell Sea. The 28 man crew found themselves stranded on the pack ice with no hope of rescue. They camped on the ice for 6 months drifting slowly northwards. Eventually the ice became too unstable and the crew were stranded on the small uninhabited Elephant Island after taking to the ships boats. Shackleton and 5 of his crew then rowed 800 miles to South Georgia island in their 22.5 ft boat the ‘James Caird’. They were aiming to seek help from whaling outposts on the island and to come back and rescue the remaining 23 men. The journey was gruelling, through heavy seas and freezing conditions but after 14 days they successfully reached the island. It would be a further 3 months before Shackleton would be able to rescue the men he left behind, due to the start of the southern winter. The government of Uruguay loaned him a ship to affect the rescue and amazingly all 28 men of the ‘Endurance’ survived."
+                "popupContent" : "Ernest Shackleton and his crew set sail on the Endeavour from Millbay Docks. After Roald Amundsen’s success reaching the South Pole in 1911 (and the subsequent death of one of Plymouth’s most famous sons, Robert Falcon Scott) Shackleton was aiming to complete the grandly titled ‘Imperial Trans-Antarctic expedition’, crossing Antarctica from one side to the other. The expedition came into jeopardy when the Endurance became trapped in the sea ice, and was ultimately crushed and sank in the Weddell Sea. The 28 man crew found themselves stranded on the pack ice with no hope of rescue. They camped on the ice for 6 months drifting slowly northwards. Eventually the ice became too unstable and the crew were stranded on the small uninhabited Elephant Island after taking to the ships boats. Shackleton and 5 of his crew then rowed 800 miles to South Georgia island in their 22.5 ft boat the ‘James Caird’. They were aiming to seek help from whaling outposts on the island and to come back and rescue the remaining 23 men. The journey was gruelling, through heavy seas and freezing conditions but after 14 days they successfully reached the island. It would be a further 3 months before Shackleton would be able to rescue the men he left behind, due to the start of the southern winter. The government of Uruguay loaned him a ship to affect the rescue and amazingly all 28 men of the ‘Endurance’ survived.",
+                "image":"static/images/endeavour_blue_plaque.jpeg",
+                "altText":"Photo of the blue plaque it reads, 8th August 1914, Sir Ernest Shackleton, Polar Explorer, and his ship 'Endurance' sailed from Millbay Docks at the start of the Imperial Trans-Antarctic Expedition (1914 - 1917)"
             },
             "id": 79
         },

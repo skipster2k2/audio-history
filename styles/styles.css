@@ -11,3 +11,7 @@ h1, p{
     padding-left: 5px;
     font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
+
+.popupImg {
+    width: 100%;
+}
