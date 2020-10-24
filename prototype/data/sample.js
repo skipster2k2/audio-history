@@ -556,7 +556,7 @@ var historyFile = {
                 "title": "The Duke of Cornwall Hotel",
                 "popupContent" : "The Duke of Cornwall dominates the skyline of Millbay and stands grandly in Victorian splendour. It was Plymouth’s first luxury hotel, the South Devon railway company recognised the need for luxury accommodation as first class travel increased to and from the docks. The hotel’s popularity matched the fortunes of the docks, peaking in the 1930's. During the second world war, the hotel was embroiled in scandal as the family running the hotel were strongly tied to the fascist party. Due to Plymouth’s military importance, the family were placed on MI5’s suspect list and in 1944 they were forced to leave the hotel before the Allied invasion of France. In the 1970’s the hotel faced the threat of being pulled down primarily because of the lack of car parking, despite being listed in 1975. Sir John Betjeman helped lead the fight for it’s survival describing it as “one of the finest examples of Victorian gothic architecture he had ever seen.’ the hotel’s future was thankfully secured in 1988 after the terraced garden had been changed to a car park.",
                 "image":"static/images/duke_of_cornwall_advert.jpeg",
-                "altText":"Newspaper advert for the Duke of Cornwall hotel showing a hand drawn image of the hotel."
+                "altText":"An advert for the Duke of Cornwall from 1897. It looks much the same today."
             },
             "id": 84
         },
@@ -571,7 +571,9 @@ var historyFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Millbay Station",
-                "popupContent" : "Little remains today as a reminder that the Pavilions was once the location of Plymouth’s primary railway station. The only remaining features are two stone pillars outside the main entrance with no real explanation as to what they are or why they are there. They are in fact the posts that made up the forecourt entrance to the station. The station was built in 1849 by the South Devon railway as the terminus of its line from Exeter. It was originally a 7ft broad gauge railway but was converted to 4ft 8½in standard gauge in 1892 after the Great Western railway had acquired the South Devon in 1876. In 1941 the station was closed to passengers after being bombed. Traces of cannon damage can still be seen on the posts. In 1969 the station was closed to good trains, apart from through traffic to the docks. Then finally in 1971 the station was closed for good. Twenty years later the Pavilions leisure complex was opened on the site."
+                "popupContent" : "Little remains today as a reminder that the Pavilions was once the location of Plymouth’s primary railway station. The only remaining features are two stone pillars outside the main entrance with no real explanation as to what they are or why they are there. They are in fact the posts that made up the forecourt entrance to the station. The station was built in 1849 by the South Devon railway as the terminus of its line from Exeter. It was originally a 7ft broad gauge railway but was converted to 4ft 8½in standard gauge in 1892 after the Great Western railway had acquired the South Devon in 1876. In 1941 the station was closed to passengers after being bombed. Traces of cannon damage can still be seen on the posts. In 1969 the station was closed to good trains, apart from through traffic to the docks. Then finally in 1971 the station was closed for good. Twenty years later the Pavilions leisure complex was opened on the site.",
+                "image":"static/images/millbay_station_pillars.jpeg",
+                "altText":"The entrance pillars to Millbay Station, cannon damage from World War II can still be seen on them."
             },
             "id": 85
         },
@@ -620,10 +622,30 @@ var historyFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Buffalo Bill",
-                "popupContent" : "In 1904 'Buffalo Bill's wild west show and congress of rough riders' rode into Plymouth, or more specifically steamed in, on 3 trains containing 1300 men and women and 800 horses. The shows were held on the exhibition fields at Pennycomequick for two nights."
+                "popupContent" : "In 1904 'Buffalo Bill's wild west show and congress of rough riders' rode into Plymouth, or more specifically steamed in, on 3 trains containing 1300 men and women and 800 horses. The shows were held on the exhibition fields at Pennycomequick for two nights.",
+                "image":"static/images/buffalo_bill_ticket.jpg",
+                "altText":"A ticket stub for 'Buffalo Bills Wild West and congress of rough riders of the world.'"
             },
             "id": 87
         },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates": [
+                    -4.2680,
+                    50.1839
+                ]
+            },
+            "type": 'Feature',
+            "properties": {
+                "title": "Eddystone Lighthouse",
+                "popupContent" : "There have been 4 lighthouses on Eddystone Reef, the first Winstanley's lgihthouse was built between 1696 and 1698, it stood for 5 years until the great storm of 1703 removed all trace of it. Rudyard's lighthouse was completed in 1709 and was lit by 24 candles. Unsurprisingly it burnt down in 1755. Perhaps the most famous lighthouse, Smeatons tower, was constructed between 1756 and 1759. Smeaton's interlocking concrete design has been the foundational design of all lighhouses built since. It stood on the reef until 1877 when erosion to the rocks under the lighthouse caused it to shake from side to side whenever large waves hit. After decommissioning it was rebuilt on Plymouth Hoe, in Plymouth. In 1878 Douglass's lighthouse was built and remains on the reef to this day.",
+                "image":"static/images/eddystone_lighthouse.jpg",
+                "altText":"Douglass's lighthouse on Eddystone reef, alongside the remaining base of Smeaton's lighthouse.'"
+            },
+            "id": 88
+        }
+        
     ]
 };
 
