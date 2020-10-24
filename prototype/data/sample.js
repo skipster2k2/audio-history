@@ -63,7 +63,9 @@ var historyFile = {
             "type": 'Feature',
             "properties": {
                 "title": "The Belvedere",
-                "popupContent" : "In 1882 the last political meeting took place in the Bull Ring on the Hoe. The Belvedere replaced the bullring in 1891. In the 17th century all bulls were required to be baited by dogs to ensure the meat being sold was tender. Butchers would be fined if they failed to do so."
+                "popupContent" : "In 1882 the last political meeting took place in the Bull Ring on the Hoe. In the 17th century all bulls were required to be baited by dogs to ensure the meat being sold was tender. Butchers would be fined if they failed to do so. The Belvedere was built in 1891, it replaced the bullring and a camera obscura which showed views of the harbour.",
+                "image":"static/images/belvedere.jpg",
+                "altText":"The Belvedere wedding cake, a 3 tier grade 2 listed structure built in 1891"
             },
             "id": 54    
         },
@@ -505,7 +507,7 @@ var historyFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Landing point of Titanic crew",
-                "popupContent" : "In 1912 the surviving crew of the Titanic landed at Millbay docks in secrecy and were taken by train to Southampton. There is a memorial inside Millbay marina, unfortunately it is not accessible to the public.",
+                "popupContent" : "In 1912 the surviving crew of the Titanic landed at Millbay docks in secrecy on the Red Star liner 'Lapland'. They were then taken by train to Southampton. There is a memorial inside Millbay marina, unfortunately it is not accessible to the public.",
                 "image":"static/images/titanic_crew.jpeg",
                 "altText":"The Titanic crew landing at Millbay docks"
             },
@@ -626,7 +628,7 @@ var historyFile = {
                 "image":"static/images/buffalo_bill_ticket.jpg",
                 "altText":"A ticket stub for 'Buffalo Bills Wild West and congress of rough riders of the world.'"
             },
-            "id": 87
+            "id": 88
         },
         {
             "geometry" : {
@@ -643,7 +645,245 @@ var historyFile = {
                 "image":"static/images/eddystone_lighthouse.jpg",
                 "altText":"Douglass's lighthouse on Eddystone reef, alongside the remaining base of Smeaton's lighthouse.'"
             },
-            "id": 88
+            "id": 89
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates": [
+                    -4.141192,
+                    50.363867
+                ]
+            },
+            "type": 'Feature',
+            "properties": {
+                "title": "Tinside Bathing Houses",
+                "popupContent" : "in 1933 the bathing houses and terraces to the east of Tinside Lido (including what is now the Terrace cafe) were opened by Lord Mayor Alderman RR Oke. Tinside Lido opened 2 years later.",
+                "image":"static/images/tinside_lido_bathing_houses.jpg",
+                "altText":"Photo of the Tinside Bathing Houses opening day from the Western Morning Newspaper."
+            },
+            "id": 90
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates": [
+                    -4.129166,
+                    50.364605
+                ]
+            },
+            "type": 'Feature',
+            "properties": {
+                "title": "The first single-handed transatlantic yacht race",
+                "popupContent" : "in 1960 the first Observer single-handed transatlantic race (OSTAR) left Plymouth. Conceived by Blondie Haslar and run by the Royal Western Yacht Club it was the first single-handed ocean yacht race in the world, and continues today as the TRANSAT.",
+                "image":"static/images/jester.jpg",
+                "altText":"Blondie Haslar's junk rigged yacht, Jester which he sailed in the first OSTAR."
+            },
+            "id": 91
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates": [
+                    -4.114712,
+                    50.416961
+                ]
+            },
+            "type": 'Feature',
+            "properties": {
+                "title": "Derriford Hospital",
+                "popupContent" : "Derriford hospital was opened in 1981. In the weeks before opening there was great interest from the public. 10,000 people were shown around the new building on tours.",
+                "image":"static/images/derriford_hospital.jpg",
+                "altText":"The entrance to Derriford hospital."
+            },
+            "id": 92
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates": [
+                    -4.145832,
+                    50.368833
+                ]
+            },
+            "type": 'Feature',
+            "properties": {
+                "title": "The Athenaeum",
+                "popupContent" : "The Plymouth Institution for the promotion of Science, Literature and the Liberal Arts was formed in 1812 and 7 years later the Athenaeum was opened. Designed by John Foulston, it was credited as being the first example of a true Grecian temple that was attempted in Britain. It originally consisted only of the lecture hall and the rooms in front. During 1828-29 the building was extended to the rear and included a room that was to serve as the only museum in the Town for some 50 years. Unfortunately the original was destroyed on April 21st 1941 during the during the Blitz of Plymouth. The site was left in ruins until 1959 when work started on the current Athenaeum. The new theatre opened in 1961 with seating for 340 and a library. Notable guests have included The Beatles and Arnold Schwarzenegger",
+                "image":"static/images/atheneaum.jpg",
+                "altText":"The old Athenaeum in ruins after World War 2"
+            },
+            "id": 93
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates": [
+                    -4.126903,
+                    50.360541
+                ]
+            },
+            "type": 'Feature',
+            "properties": {
+                "title": "The first transatlantic flight lands in Plymouth",
+                "popupContent" : "On the 31st May 1919 landed in Plymouth from Rockaway New York. Under the command of Albert Read, the 4,526 mile journey took place in a Curtiss NC-4 flying boat built for the US Navy. The flight took 23 days with 53 hours and 58 minutes of flying time.",
+                "image":"static/images/first_transatlantic_flight.jpg",
+                "altText":"This image from Plymouth city's collections shows the plane and its crew arriving at RAF Cattewater (Mount Batten)."
+            },
+            "id": 94
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates": [
+                    -4.144793,
+                    50.363800
+                ]
+            },
+            "type": 'Feature',
+            "properties": {
+                "title": "Plymouth Pier",
+                "popupContent" : "Plymouth Pier was opened to the public on 29th May 1884. The pier was 400-500ft long. Initially it included shops, a clock tower and a landing stage. In 1891 a 2000 seat pavilion was added and it became one of the first public places in the city to be lit by electricity.",
+                "image":"static/images/plymouth_pier.jpg",
+                "altText":"A postcard of Plymouth pier with Drakes Island in the background."
+            },
+            "id": 95
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates": [
+                    -4.145635,
+                    50.363092
+                ]
+            },
+            "type": 'Feature',
+            "properties": {
+                "title": "First solo circumnavigation of the World",
+                "popupContent" : "On May 28th 1967 Sir Francis Chichester sailed Gipsy Moth IV into Plymouth to become the first person to solo circumnavigate the world. After a 24000 mile journey for 274 days, a crowd of around 200,000 amassed on the Hoe to welcome him home.",
+                "image":"static/images/gipsy_moth.jpg",
+                "altText":"A photo of Gipsy Moth IV sailing into Plymouth from Plymouth Hoe, there are large crowds and many vessels greeting her."
+            },
+            "id": 96
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates": [
+                    -4.150899,
+                    50.388086
+                ]
+            },
+            "type": 'Feature',
+            "properties": {
+                "title": "Home Park",
+                "popupContent" : "Home Park was originally used by the now defunct Devonport Albion rugby team from 1893 to 1898. Following a dispute with the ground's owners over rent, Albion left and the ground was not used for three years. In 1901 the Argyle Athletic Club obtained a lease on the ground, then an oval-shaped bowl and cinder track, and the first an athletics meeting was held on Whit Monday in 1901, however leaseholder Clarence Spooner was keen for it to stage football. Following a series of successful trial matches involving Argyle Football Club, which attracted healthy crowds, Spooner made the decision to focus on establishing the first professional football club in Devon. The club, formed in 1886, changed its name to Plymouth Argyle in 1903 and became professional that same year. Home Park played host to its first competitive match, against Northampton Town, on 5 September 1903 in front of a crowd of 4,438. At the time the ground had one wooden grandstand which could accommodate 2,000 people, while the other three sides of the ground were surrounded by slag heap banking with a waist-high fence.",
+                "image":"static/images/home_park.jpg",
+                "altText":"The gates of Home Park."
+            },
+            "id": 97
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates": [
+                    -4.153603,
+                    50.369666
+                ]
+            },
+            "type": 'Feature',
+            "properties": {
+                "title": "Laurel and Hardy",
+                "popupContent" : "In 1954 Laurel and Hardy appeared on stage at the Palace Theatre in Plymouth just once. Unfortunately Oliver Hardy became ill with flu, suffered a mild heart attack, and the show was cancelled. Today a plaque outside the entrance to the theatre is based on the show flyer.",
+                "image":"static/images/laurel_hardy.jpg",
+                "altText":"The plaque outside the Palace Theatre based on the poster flyers of the performance."
+            },
+            "id": 98
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates": [
+                    -4.179778,
+                    50.371247
+                ]
+            },
+            "type": 'Feature',
+            "properties": {
+                "title": "Aggie Westons",
+                "popupContent" : "On May 8th 1876 the first Aggie Westons sailors rest was opened just outside the dockyard gates in Devonport. The rest was founded by Agnes Weston and Sophia Wintz to give the young naval trainees a place to go, that wasn't a public house, for rest and relaxation.",
+                "image":"static/images/aggie_westons.jpg",
+                "altText":"Aggie Westons, a large 4 storey building, the the tight of the building are the gates to Devonport dockyard"
+            },
+            "id": 99
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates": [
+                    -55.200121,
+                    -61.132041
+                ]
+            },
+            "type": 'Feature',
+            "properties": {
+                "title": "The Voyage of the James Caird",
+                "popupContent" : "After setting sail from Millbay docks to attemp the 'Imperial Trans-Antarctic Expedition' the crew of the Endeavour led by Ernest Shackleton found themselves stranded on Elephant Island in Antarctica. Shackleton and 5 of his companions set off on the 1,300km journey to South Georgia in the 'James Caird' a 22.5 foot open topped lifeboat. The journey was fraught with dangers including huricane force winds, gigantic waves, and near capsize but after 16 days they made this amazing feat of navigation. I took Shackleton four attempts to return to Elephant Island and rescue his crew but on the 30th August 1916 he finally made it back onboard the 'Yelcho' all of the crew of the Endurance survived.",
+                "image":"static/images/james_caird.jpg",
+                "altText":"A black and white photo of the James Caird launching from the beach on Elephant Island at the beginning of their journey."
+            },
+            "id": 100
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates": [
+                    -4.156986,
+                    50.368493
+                ]
+            },
+            "type": 'Feature',
+            "properties": {
+                "title": "East Stonehouse Townhall",
+                "popupContent" : "East Stonehouse Town Hall was erected in 1849-50 and was the centre of administration. It was built next to the Fire Station and Police Station (now Eleanor House flats). The town hall boasted a 40ft by 80ft ballroom above the offices. In 1859 the Greatest Showman, PT Barnum addressed an audience here on 'The Science of Money Making' Reserved seats cost 2 shillings, 1/6d or one shilling, which may go some way to reveal his science! Unfortunately the town hall was destroyed by an incendiary bomb in the blitz",
+                "image":"static/images/stonehouse_town_hall.jpg",
+                "altText":"A black and white photo East Stonehouse Town Hall, showing its Ionic columns and pilasters."
+            },
+            "id": 101
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates": [
+                    -4.138708,
+                    50.372793
+                ]
+            },
+            "type": 'Feature',
+            "properties": {
+                "title": "Drake circus Guiness clock",
+                "popupContent" : "In 1937 the Guinness clock was erected on the Liverpool Victoria Friendly Society building at Drake's Circus. The clock was 10ft wide, flanked with the words 'Guinness Time' and 'Guinness is good for you.' At night the clock and lettering was illuminated in red neon. The clock survived until the demolition of Drake Circus in 1960, The clock was dismantled and put into storage by W G Heath & Company. Unfortunately several years later it was decided it was time to have a clear-out and the whole lot was taken to the Chelson Meadow rubbish tip.",
+                "image":"static/images/guiness_clock.jpg",
+                "altText":"Colour photo of the Guiness clock on Drakes Circus, with the words 'Guiness is good for you' accross the building."
+            },
+            "id": 102
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates": [
+                    -4.184049,
+                    50.369016
+                ]
+            },
+            "type": 'Feature',
+            "properties": {
+                "title": "HMS Foudroyant",
+                "popupContent" : "On the 31st March 1798 HMS Foudroyant was launched from Devonport dock. She was an 80 gun third rate, and served as Horation Nelson's flagship from 1799 to 1801 and was reportedly his favourite ship. From her decks he led the recapture of Naples and Malta from the French. She was also where Nelson began his affair with Lady Hamilton.",
+                "image":"static/images/capture_of_the_guillaime_tell.jpg",
+                "altText":"Capture of the Guillaume Tell 31 March 1800, by Nicholas Pocock. Foudroyant is seen centre right."
+            },
+            "id": 102
         }
         
     ]
