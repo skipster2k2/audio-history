@@ -883,7 +883,92 @@ var historyFile = {
                 "image":"static/images/capture_of_the_guillaime_tell.jpg",
                 "altText":"Capture of the Guillaume Tell 31 March 1800, by Nicholas Pocock. Foudroyant is seen centre right."
             },
-            "id": 102
+            "id": 103
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates": [
+                    -4.158025,
+                    50.372191
+                ]
+            },
+            "type": 'Feature',
+            "properties": {
+                "title": "Royal Naval Hospital, Stonehouse",
+                "popupContent" : "The naval hospital was built between 1758 and 1765. The design was influential in its time, its pattern of detached wards (arranged so as to maximise ventilation and minimise spread of infection) foreshadows the 'pavilion' style of hospital building which was popularised by Florence Nightingale a century later. The hospital housed 1,200 patients in sixty wards, its ten ward blocks being arranged around a courtyard with a central block containing the chapel, dispensary and staff housing. Patients were landed directly from Stonehouse Creek (now playing fields). After 237 years of use it was closed in 1995 and is now the gated Millfields complex.",
+                "image":"static/images/stonehouse_hospital.jpg",
+                "altText":"Aerial photo of Stonehouse hospital demonstrating the detached wards around large squares."
+            },
+            "id": 104
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates": [
+                    -4.124605,
+                    50.416877
+                ]
+            },
+            "type": 'Feature',
+            "properties": {
+                "title": "Plymouth Leat",
+                "popupContent" : "On March 29th 1585 Royal Assent was granted for the building of Plymouth Leat from the River Meavy on #Dartmoor to #Plymouth. Construction started 4 years later whilst Sir Francis Drake was mayor. According to legend Drake rode a white horse ahead of the water all the way to Plymouth. Whilst large parts of the leat can still be seen on Dartmoor, little remains in the city, the section here was restored when the retail park was developed.",
+                "image":"static/images/drakes_leat_map.jpg",
+                "altText":"Map of Plymouth Leat."
+            },
+            "id": 105
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates": [
+                    -4.143649,
+                    50.377355
+                ]
+            },
+            "type": 'Feature',
+            "properties": {
+                "title": "Plymouth Train Station",
+                "popupContent" : "On March 28th in 1877 Plymouth North Road Station (now just Plymouth station) was opened. A major rebuilding scheme was started in 1938 but was not finished until 1962 because of WWII. On completion of the expansion John Betjeman described it as 'the dullest of stations'.",
+                "image":"static/images/plymouth_station.jpg",
+                "altText":"Plymouth Station may be dull, but it looks good at sunset!"
+            },
+            "id": 106
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates": [
+                    -4.164566,
+                    50.372964
+                ]
+            },
+            "type": 'Feature',
+            "properties": {
+                "title": "James Peters, Englands first black rugby player",
+                "popupContent" : "Jimmy Peters was born in Salford, Lancashire. His father, George, had been mauled to death in a training cage by lions. His mother was unable to look after him so allowed him to join another circus troupe as a bareback horse rider. He was abandoned by the circus at age 11, having broken his arm, and found himself in Fegan's orphanage in Southwark, and then Little Wanderers' Home in Greenwich, where he captained Greenwich Admirals Rugby League Club. Peters trained in printing and carpentry; his trade brought him to Bristol, where he played as a fly-half for a number of clubs and represented the Somerset County team between 1900 and 1903. His presence at Bristol was opposed by some on racist grounds resuting in him moving on to Plymouth in 1902, representing Plymouth RUFC, and the Devon county side until 1909. He was the star player in the Devon side which won the County Championship in 1906, resulting in the press calling for his selection for the national team. On 17 March 1906, Peters won his début cap for England against Scotland. However, The Yorkshire Post pointed out, 'his selection is by no means popular on racial grounds'. In the match, he set up two tries for England. He was to play a further game, against France, in which he scored a try. In October through to December 1906 Peters became embroiled in controversy regarding the touring South African Springboks, as some members objected to him playing against them for Devon due to his colour, and he was not picked for the International game against South Africa, with a number of newspapers citing racial grounds.He went on to be capped for England three more times in 1907 and 1908. In 1910, Peters lost three fingers in a dockyard accident, and although it was initially feared he could not play again he continued to play until 1912 when politics forced Peters out of rugby union.",
+                "image":"static/images/jimmy_peters.jpg",
+                "altText":"James Peters in his England kit"
+            },
+            "id": 107
+        },
+        {
+            "geometry" : {
+                "type" : "Point",
+                "coordinates": [
+                    -4.151563,
+                    50.373707
+                ]
+            },
+            "type": 'Feature',
+            "properties": {
+                "title": "Plymouth Catholic Cathedral",
+                "popupContent" : "The Catholic Cathedral Church of St Mary and St Boniface was opened on March 25th 1857. The architects were Joseph and Charles Hansom. Joseph was also the designer of the Hansom safety cab. The cathedral was opened at the Feast of the annunciation with a mass.",
+                "image":"static/images/catholic_cathedral.jpg",
+                "altText":"Plymouth Catholic Cathedral"
+            },
+            "id": 108
         }
         
     ]
