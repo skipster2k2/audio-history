@@ -29,7 +29,9 @@ var historyFile = {
             "type": "Feature",
             "properties": {
                 "title": "Royal William Yard",
-                "popupContent": "Historic major victualling depot of the Royal Navy. It was designed by the architect Sir John Rennie and was named after King William IV"
+                "popupContent": "Historic major victualling depot of the Royal Navy. It was designed by the architect Sir John Rennie and was named after King William IV",
+                "image":"static/images/royal_william_yard_gate.jpg",
+                "altText":"The gate at Royal William Yard lit up at night."
             },
             "id": 52
         },
@@ -44,7 +46,9 @@ var historyFile = {
             "type": "Feature",
             "properties": {
                 "title" : "Stonehouse Bridge",
-                "popupContent": "Designed by John Smeaton. Harry Houdini jumped off the bridge handcuffed in 1909 whilst performing at the nearby Palace Theatre."
+                "popupContent": "Designed by John Smeaton. Harry Houdini jumped off the bridge handcuffed in 1909 whilst performing at the nearby Palace Theatre.",
+                "image":"static/images/stonehouse_bridge.jpg",
+                "altText":"Sunset from Stonehouse bridge, lots of boats in the creek at high tide."
             },
             "id": 53
         },
@@ -204,7 +208,8 @@ var historyFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Blockhouse Park",
-                "popupContent" : "Before the city expanded toward Roborough this was the highest point in Plymouth. ‘Mount Pleasant Redoubt’ was first built in 1780 to protect the dockyard. According to a plaque at the entrance to the park it was modified in 1811 and had become obsolete by 1860."
+                "popupContent" : "Before the city expanded toward Roborough this was the highest point in Plymouth. ‘Mount Pleasant Redoubt’ was first built in 1780 to protect the dockyard. According to a plaque at the entrance to the park it was modified in 1811 and had become obsolete by 1860.",
+                "image":"static/images/blockhouse_park.jpg"
             },
             "id": 63
         },
@@ -304,7 +309,9 @@ var historyFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Egyptian House",
-                "popupContent" : "Designed by John Foulston and built in 1823. There are two Egyptian-style houses in England, the other is in Penzance, but that one is three stories whereas this one is two. The first tenant of the building was the Stonehouse and Devonport Classical and Mathematical Subscription School, later it became a library and in 1867 was purchased by the Odd Fellows Society. In 1968 it was converted into a social club."
+                "popupContent" : "Designed by John Foulston and built in 1823. There are two Egyptian-style houses in England, the other is in Penzance, but that one is three stories whereas this one is two. The first tenant of the building was the Stonehouse and Devonport Classical and Mathematical Subscription School, later it became a library and in 1867 was purchased by the Odd Fellows Society. In 1968 it was converted into a social club.",
+                "image":"static/images/egyptian_house.jpg",
+                "altText":"The Egyptian house in Plymouth."
             },
             "id": 69
         },
@@ -319,7 +326,9 @@ var historyFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Number 1 Slip",
-                "popupContent" : "Slipway No 1 is the oldest covered slip in any Royal Navy dockyard. Built in around 1763, the roof wasn’t added until 1814."
+                "popupContent" : "Slipway No 1 is the oldest covered slip in any Royal Navy dockyard. Built in around 1763, the roof wasn’t added until 1814.",
+                "image":"static/images/no1_slip.jpeg",
+                "altText":"Sunset with Number 1 slip covered shed and King Billy figurehead in silhouette."
             },
             "id": 70
         },
@@ -431,7 +440,7 @@ var historyFile = {
             "properties": {
                 "title": "Octagon Brewery",
                 "popupContent" : "The brewery was founded in 1861 and incorporated in 1899. It continued until 1954 when it was sold to H&G Simonds. The following year the company was liquidated .The brewery owned many taverns throughout the ‘Three Towns'. These pubs displayed the distinctive brewery logo of an OB within an octagon shape. The distinctive logo can still be seen today in the windows of the Dolphin Hotel on the Barbican, one of Plymouth’s most popular pubs.",
-                "image":"static/images/dolphin_hotel.jpeg",
+                "image":"static/images/dolphin_hotel.jpg",
                 "altText":"The Dolphin Hotel on the Barbican with the distinctive Octaganal brewery emblem embedded in the windows."
             },
             "id": 77
@@ -496,7 +505,9 @@ var historyFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Landing point of Titanic crew",
-                "popupContent" : "In 1912 the surviving crew of the Titanic landed at Millbay docks in secrecy and were taken by train to Southampton. There is a memorial inside Millbay marina, unfortunately it is not accessible to the public."
+                "popupContent" : "In 1912 the surviving crew of the Titanic landed at Millbay docks in secrecy and were taken by train to Southampton. There is a memorial inside Millbay marina, unfortunately it is not accessible to the public.",
+                "image":"static/images/titanic_crew.jpeg",
+                "altText":"The Titanic crew landing at Millbay docks"
             },
             "id": 81
         },
@@ -526,7 +537,9 @@ var historyFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Eddystone Lighthouse Pavement",
-                "popupContent" : "The strange looking paving slabs are the groundbreaking design of interlocking patterns of stone blocks developed by John Smeaton to build the Eddystone Lighthouse. The interlocking blocks were so successful that the lighthouse stood for 123 years, indeed the rock it was built on wore away before the blocks did forcing it to be replaced. Indeed the lighthouse still stands today proudly on Plymouth Hoe 259 years after it was first constructed. Make sure to look out for the small plaque embedded in the pavement that tells the rather grissly tale of lighthouse keeper Henry Hall."
+                "popupContent" : "The strange looking paving slabs are the groundbreaking design of interlocking patterns of stone blocks developed by John Smeaton to build the Eddystone Lighthouse. The interlocking blocks were so successful that the lighthouse stood for 123 years, indeed the rock it was built on wore away before the blocks did forcing it to be replaced. Indeed the lighthouse still stands today proudly on Plymouth Hoe 259 years after it was first constructed. Make sure to look out for the small plaque embedded in the pavement that tells the rather grissly tale of lighthouse keeper Henry Hall.",
+                "image":"static/images/eddystone_lighthouse_pavement.jpeg",
+                "altText":"The Eddystone lighthouse pavemant with the Duke of Cornwall Hotel in the background."
             },
             "id": 83
         },
@@ -541,7 +554,9 @@ var historyFile = {
             "type": 'Feature',
             "properties": {
                 "title": "The Duke of Cornwall Hotel",
-                "popupContent" : "The Duke of Cornwall dominates the skyline of Millbay and stands grandly in Victorian splendour. It was Plymouth’s first luxury hotel, the South Devon railway company recognised the need for luxury accommodation as first class travel increased to and from the docks. The hotel’s popularity matched the fortunes of the docks, peaking in the 1930's. During the second world war, the hotel was embroiled in scandal as the family running the hotel were strongly tied to the fascist party. Due to Plymouth’s military importance, the family were placed on MI5’s suspect list and in 1944 they were forced to leave the hotel before the Allied invasion of France. In the 1970’s the hotel faced the threat of being pulled down primarily because of the lack of car parking, despite being listed in 1975. Sir John Betjeman helped lead the fight for it’s survival describing it as “one of the finest examples of Victorian gothic architecture he had ever seen.’ the hotel’s future was thankfully secured in 1988 after the terraced garden had been changed to a car park."
+                "popupContent" : "The Duke of Cornwall dominates the skyline of Millbay and stands grandly in Victorian splendour. It was Plymouth’s first luxury hotel, the South Devon railway company recognised the need for luxury accommodation as first class travel increased to and from the docks. The hotel’s popularity matched the fortunes of the docks, peaking in the 1930's. During the second world war, the hotel was embroiled in scandal as the family running the hotel were strongly tied to the fascist party. Due to Plymouth’s military importance, the family were placed on MI5’s suspect list and in 1944 they were forced to leave the hotel before the Allied invasion of France. In the 1970’s the hotel faced the threat of being pulled down primarily because of the lack of car parking, despite being listed in 1975. Sir John Betjeman helped lead the fight for it’s survival describing it as “one of the finest examples of Victorian gothic architecture he had ever seen.’ the hotel’s future was thankfully secured in 1988 after the terraced garden had been changed to a car park.",
+                "image":"static/images/duke_of_cornwall_advert.jpeg",
+                "altText":"Newspaper advert for the Duke of Cornwall hotel showing a hand drawn image of the hotel."
             },
             "id": 84
         },
@@ -571,7 +586,9 @@ var historyFile = {
             "type": 'Feature',
             "properties": {
                 "title": "Drake Cinema",
-                "popupContent" : "In 1958 the Drake Cinema was opened. It had a seating capacity of 1,644 and an eye-catching model of the Golden Hind over the entrance. The cinema entertained the people of #Plymouth for 41 years before finally closing in 1999 after the Warner Village opened in Coxside."
+                "popupContent" : "In 1958 the Drake Cinema was opened. It had a seating capacity of 1,644 and an eye-catching model of the Golden Hind over the entrance. The cinema entertained the people of Plymouth for 41 years before finally closing in 1999 after the Warner Village opened in Coxside.",
+                "image":"static/images/drake_cinema.jpg",
+                "altText":"The Drake cinema at night, the model of ths Golden Hind is lit up."
             },
             "id": 86
         },
@@ -586,22 +603,9 @@ var historyFile = {
             "type": 'Feature',
             "properties": {
                 "title": "HMS Drake",
-                "popupContent" : "On the 4th June 1889 the first ever Royal Navy shore barracks was occupied in #Devonport when 500 men marched from the depot ship Royal Adelaide. Commissioned in 1890 as HMS Vivid then HMS Drake since 1934. Before this sailors would be accommodated in old depot ships."
-            },
-            "id": 87
-        },
-        {
-            "geometry" : {
-                "type" : "Point",
-                "coordinates": [
-                    -4.181142,
-                    50.390422
-                ]
-            },
-            "type": 'Feature',
-            "properties": {
-                "title": "HMS Drake",
-                "popupContent" : "On the 4th June 1889 the first ever Royal Navy shore barracks was occupied in #Devonport when 500 men marched from the depot ship Royal Adelaide. Commissioned in 1890 as HMS Vivid then HMS Drake since 1934. Before this sailors would be accommodated in old depot ships."
+                "popupContent" : "On the 4th June 1889 the first ever Royal Navy shore barracks was occupied in Devonport when 500 men marched from the depot ship Royal Adelaide. Commissioned in 1890 as HMS Vivid then HMS Drake since 1934. Before this sailors would be accommodated in old depot ships.",
+                "image":"static/images/hms_drake.jpg",
+                "altText":"The gates at HMS Drake."
             },
             "id": 87
         },

@@ -27,7 +27,10 @@ var map = L.map('map').setView([50.3755, -4.1427], 13);
 			}
 			if (feature.properties && feature.properties.image) {
 				popup += "<hr><img class='popupImg' src='" + feature.properties.image + "' alt='" + feature.properties.altText + "'>"
-			}
+            }
+            if (feature.properties && feature.properties.altText) {
+                popup += feature.properties.altText;
+            }
 		layer.bindPopup(popup);
 	}
 
