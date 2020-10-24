@@ -1,4 +1,4 @@
-var map = L.map('map').fitWorld();
+var map = L.map('map').setView([50.3755, -4.1427], 13);
     
     //add base layer
 	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2tpcHN0ZXIyazIiLCJhIjoiY2tiMHpodjMxMDVwZTJ4bGM3eHJnZGY4NiJ9.rBy0ebZPuuE4H1WqLIGG4A', {
@@ -12,56 +12,31 @@ var map = L.map('map').fitWorld();
 	}).addTo(map);
 
     //define icon for marker
-	var audioIcon = L.icon({
-		iconUrl: 'static/images/speaker.svg',
+	var historyIcon = L.icon({
+		iconUrl: 'static/images/history.svg',
 		iconSize: [32, 32],
 		iconAnchor: [0 ,0],
 		popupAnchor: [0, 0]
 	});
 
-	//check for geolocation
-	function onLocationFound(e) {
-		var radius = e.accuracy / 2;
-
-		L.marker(e.latlng).addTo(map)
-	}
-
-	function onLocationError(e) {
-		var map = L.map('map').setView([50.3755, -4.1427], 13);;
-	}
-
-	map.on('locationfound', onLocationFound);
-	map.on('locationerror', onLocationError);
-
-	map.locate({setView: true, watch: true, maxZoom: 14});
-
-
-
     //add popup content for each feature
 	function onEachFeature(feature, layer) {
-        var popupContent = "<h1>" + feature.properties.title + "</h3>"
-        
-
-		if (feature.properties && feature.properties.popupContent) {
-			popupContent += feature.properties.popupContent;
-        }
-        
-        if (feature.properties && feature.properties.audio) {
-            popupContent += "<hr><audio controls src='" + feature.properties.audio + "'>Your browser does not support the<code>audio</code> element.</audio>"
-		}
-		
-		if (feature.properties && feature.properties.image) {
-			popupContent += "<hr><img class='popupImg' src='" + feature.properties.image + "' alt='" + feature.properties.altText + "'>"
-		}
-
-		layer.bindPopup(popupContent);
+        var popup = "<h1>" + feature.properties.title + "</h3>"
+			if (feature.properties && feature.properties.popupContent) {
+			popup += feature.properties.popupContent;
+			}
+			if (feature.properties && feature.properties.image) {
+				popup += "<hr><img class='popupImg' src='" + feature.properties.image + "' alt='" + feature.properties.altText + "'>"
+			}
+		layer.bindPopup(popup);
 	}
 
-	var audioFile = L.geoJSON(audioFile, {
+//add layer of history points from geojson file
+var historyLayer = L.geoJSON(historyFile, {
 
-		pointToLayer: function (feature, latlng) {
-			return L.marker(latlng, {icon: audioIcon});
-		},
+    pointToLayer: function (feature, latlng) {
+        return L.marker(latlng, {icon: historyIcon});
+    },
 
-		onEachFeature: onEachFeature
-	}).addTo(map);
+    onEachFeature: onEachFeature
+}).addTo(map);

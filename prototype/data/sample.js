@@ -1,4 +1,4 @@
-var audioFile = {
+var historyFile = {
     "type": "FeatureCollection",
     "features": [
         {
@@ -13,7 +13,6 @@ var audioFile = {
             "properties": {
                 "title": "Smeatons Tower",
                 "popupContent": "Smeaton's Tower is a memorial to celebrated civil engineer John Smeaton, designer of the third and most notable Eddystone Lighthouse. A major step forward in lighthouse design, Smeaton's structure was in use from 1759 to 1877, until erosion of the ledge it was built upon forced new construction",
-                "audio": "static/audio/horse.mp3",
                 "image": "static/images/smeatons_tower.jpg",
                 "altText": "Smeatons tower lighthouse, a lighthous with red and white stripes"
             },
