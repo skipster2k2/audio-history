@@ -761,7 +761,7 @@ var historyFile = {
             "properties": {
                 "title": "First solo circumnavigation of the World",
                 "popupContent" : "On May 28th 1967 Sir Francis Chichester sailed Gipsy Moth IV into Plymouth to become the first person to solo circumnavigate the world. After a 24000 mile journey for 274 days, a crowd of around 200,000 amassed on the Hoe to welcome him home.",
-                "image":"static/images/gipsy_moth.jpg",
+                "image" : "static/images/gipsy_moth.jpg",
                 "altText":"A photo of Gipsy Moth IV sailing into Plymouth from Plymouth Hoe, there are large crowds and many vessels greeting her."
             },
             "id": 96

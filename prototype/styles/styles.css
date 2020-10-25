@@ -12,6 +12,33 @@ h1, p{
     font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
 
+.content {
+    background-color:#fafafa;
+    padding: 10px 5px 10px 5px;
+    margin: 0px 0px 5px 0px;
+}
+
 .popupImg {
     width: 100%;
 }
+
+.container {
+    width:85vw;
+    display:flex;
+    justify-content: space-around;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .container {
+        flex-direction:column;
+    };
+}
+
+@media screen and (min-width:599px) {
+    .content {
+        margin-right: 10px;
+    }
+}
+
