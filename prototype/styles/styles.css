@@ -21,30 +21,57 @@ h1, p{
 .container {
     width:85vw;
     display:flex;
-    justify-content: space-around;
+    
 }
 
-
+/* really small screens, motoG4 for example */
 
 @media screen and (max-width:600px) {
+   
     .container {
         flex-direction:column;
+        height:400px;
+        overflow:auto;    
     }
-    
+
     .popupImg {
-        width:100%;
+        height:225px;
+        max-width:300px;
+        overflow:hidden;
+        
     }
 }
 
-@media screen and (min-width:599px) {
+/* In between screens, modern phones, pixel iphone plus etc */
+@media screen and (min-width:400px) and (max-width:599px) {
+
+    .container {
+        flex-direction:column;
+        height:480px;
+        overflow:auto;    
+    }
+
+    .popupImg {
+        height:255px;
+        max-width:340px;
+        overflow:hidden;   
+    }
+
+    
+}
+
+/*big screens with a viewport larger than 600px */
+@media screen and (min-width:600px) {
+
     .content {
         margin-right: 10px;
     }
 
     .popupImg {
-        max-height:30vw;
+        height:400px;
+        max-width:532px;
+        overflow:hidden;
     }
-
 
 }
 

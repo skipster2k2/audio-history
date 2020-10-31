@@ -21,7 +21,7 @@ var map = L.map('map').setView([50.3755, -4.1427], 13);
 
     //add popup content for each feature
 	function onEachFeature(feature, layer) {
-        var popup = "<h1>" + feature.properties.title + "</h1>"
+        var popup = "<h2>" + feature.properties.title + "</h2>"
 			if (feature.properties && feature.properties.popupContent) {
 			popup += "<div class='container'><div class='content'>" + feature.properties.popupContent + "<br /></div>";
 			}
@@ -29,7 +29,7 @@ var map = L.map('map').setView([50.3755, -4.1427], 13);
 				popup += "<div class='image'><img class='popupImg' src='" + feature.properties.image + "' alt='" + feature.properties.altText + "'>"
             }
             if (feature.properties && feature.properties.altText) {
-                popup += feature.properties.altText + "</div></div>";
+                popup += "<p>" + feature.properties.altText + "</p></div></div>";
             }
 		layer.bindPopup(popup, {
 			maxWidth:"auto"
